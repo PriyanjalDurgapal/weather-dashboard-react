@@ -100,7 +100,7 @@ It provides real-time weather data, air quality insights, and historical trends 
 
 ```bash
 # Clone repository
-git clone 
+git clone https://github.com/PriyanjalDurgapal/weather-dashboard-react.git
 
 # Navigate to project
 cd weather-dashboard
