@@ -1,4 +1,4 @@
-// src/components/weather/WeatherIcon.jsx
+
 import { WiDaySunny, WiRain, WiCloudy, WiSnow } from "react-icons/wi";
 
 const weatherCodeMap = {

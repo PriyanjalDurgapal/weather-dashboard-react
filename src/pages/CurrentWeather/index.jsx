@@ -1,4 +1,4 @@
-// src/pages/weather/CurrentWeather.jsx
+
 import { useState, useEffect, useMemo } from "react";
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
@@ -65,7 +65,7 @@ const CurrentWeather = () => {
   const tempNow = weather?.hourly?.temperature_2m?.[0] ?? "";
   const tempF = tempNow !== "" ? ((tempNow * 9) / 5 + 32).toFixed(1) : "";
 
-  // ✅ FIXED: use hourly weathercode
+  //  FIXED: use hourly weathercode
   const weatherCode = weather?.hourly?.weathercode?.[0] ?? null;
   const condition =
     weatherCode !== null ? weatherCodeMap[weatherCode] || "Clear" : "";

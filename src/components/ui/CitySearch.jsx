@@ -1,4 +1,4 @@
-// src/components/common/CitySearch.jsx
+
 import { useState, useEffect } from "react";
 import { getCitySuggestions } from "../../services/weatherService";
 
@@ -6,7 +6,7 @@ const CitySearch = ({ onSelect }) => {
   const [query, setQuery] = useState("");
   const [suggestions, setSuggestions] = useState([]);
 
-  // 🔥 Debounce
+  //  Debounce
   useEffect(() => {
     const timer = setTimeout(() => {
       if (query.length > 2) {

@@ -1,4 +1,4 @@
-// src/components/weather/HourlyCharts.jsx
+
 import ChartWrapper from "../charts/ChartWrapper";
 
 const HourlyCharts = ({ hourlyWeatherData }) => (

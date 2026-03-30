@@ -1,4 +1,4 @@
-// src/components/common/LoadingSkeleton.jsx
+
 
 const SkeletonBlock = ({ className }) => {
   return (

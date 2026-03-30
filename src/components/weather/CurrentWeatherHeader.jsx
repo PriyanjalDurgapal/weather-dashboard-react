@@ -1,4 +1,4 @@
-// src/components/weather/CurrentWeatherHeader.jsx
+
 import WeatherIcon from "./WeatherIcon";
 import WeatherCard from "./WeatherCard";
 

@@ -1,4 +1,4 @@
-// src/pages/weather/HistoricalWeather.jsx
+
 import { useState, useEffect, useMemo } from "react";
 import { getHistoricalWeather, getAirQuality } from "../../services/weatherService";
 import ChartWrapper from "../../components/charts/ChartWrapper";
@@ -35,7 +35,7 @@ const HistoricalWeather = () => {
     });
   };
 
-  // 🔥 Fetch data with validation
+  // Fetch data with validation
   useEffect(() => {
     if (!coords.lat) return;
 

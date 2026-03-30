@@ -35,7 +35,7 @@ export const getCurrentWeather = async (lat, lon, date) => {
   }
 };
 
-// 🌫 Air Quality
+//  Air Quality
 export const getAirQuality = async (lat, lon, date) => {
   try {
     const key = `air-${lat}-${lon}-${date}`;
@@ -65,7 +65,7 @@ export const getAirQuality = async (lat, lon, date) => {
   }
 };
 
-// 📊 Historical Weather
+// Historical Weather
 export const getHistoricalWeather = async (lat, lon, start, end) => {
   try {
     const key = `history-${lat}-${lon}-${start}-${end}`;
@@ -94,7 +94,7 @@ export const getHistoricalWeather = async (lat, lon, start, end) => {
   }
 };
 
-// 🌍 City Search
+//  City Search
 export const getCitySuggestions = async (query) => {
   if (!query) return [];
 
