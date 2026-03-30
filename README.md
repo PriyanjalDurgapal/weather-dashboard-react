@@ -102,6 +102,9 @@ It provides real-time weather data, air quality insights, and historical trends 
 # Clone repository
 git clone https://github.com/PriyanjalDurgapal/weather-dashboard-react.git
 
+#deployed
+https://weather-dashboard-react-phi.vercel.app/
+
 # Navigate to project
 cd weather-dashboard
 
